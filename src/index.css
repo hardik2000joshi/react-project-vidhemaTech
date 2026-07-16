@@ -4,3 +4,112 @@ h1{
   color: antiquewhite;
 }
 
+.items{
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.parent {
+  height: 400px;
+  width: 100%;
+  background-color: blueviolet;
+  padding: 30px;
+}
+
+.card{
+  height: 350px;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin: 30px;
+  font-family: sans-serif;
+  color: darkgrey;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top img{
+  height: 30px;
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 2px;
+}
+
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 8px;
+  font-size: 11px;
+  border-radius: 5px;
+  gap: 3px; 
+}
+
+.center{
+  background-color: green;
+}
+
+.center h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.center h2{
+  font-size: 20px;
+}
+
+.center .tags{
+  display: flex;
+  gap: 5px;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #b1b1b1;
+  padding-top: 15px;
+}
+
+.bottom button {
+  background-color: black;
+  color: aliceblue;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.bottom button{
+  display: flex;
+  flex-direction: column;
+}
+
+.yellow {
+  background-color: yellow;
+  color: goldenrod;
+}
+
+
+
+
+
+
+

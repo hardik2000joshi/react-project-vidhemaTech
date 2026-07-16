@@ -1,4 +1,4 @@
-const Student = () => {
+export const Student = () => {
     let abc = [10, 20, 30, 40, 50];
      abc.forEach((i)=> {
         console.log(i);
@@ -21,4 +21,3 @@ const Student = () => {
        </>
     )
 }
-export default Student;

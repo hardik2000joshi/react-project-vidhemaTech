@@ -1,9 +1,12 @@
 import { createRoot } from 'react-dom/client'
 import "./index.css";
-import App from "./App";
+import App, {Design} from "./App";
 import {Abc} from './App';
 import {Message } from './App';
-import Student from './student';
+import { GetStudent } from './components/Header';
+import { Header } from './components/Header';
+import ComponentClass from './components/Header';
+
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
     // App()
@@ -11,7 +14,10 @@ createRoot(document.getElementById('root')).render(
        <App />
        <Message />
        <Abc />
-       <Student />
+       <Header />
+       <GetStudent />
+       <ComponentClass />
+       <Design />
     </div>
    
   // </StrictMode>,
